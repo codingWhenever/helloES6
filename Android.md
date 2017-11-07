@@ -1,4 +1,4 @@
-<h3>[Android](https://www.android.com/)</h3>
+<h3>Android</h3>
 
 >Hello everyone, I'm an android developer, I will tell you something about Android.
 
