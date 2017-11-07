@@ -29,11 +29,8 @@
     + onRestart()
     + onDestory()
 
-    <h6>2. [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html
-)</h6>
+    <h6>2. [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)</h6>
 
-    <h6>3. [Service](https://developer.android.com/guide/components/services.html
-)</h6>
+    <h6>3. [Service](https://developer.android.com/guide/components/services.html)</h6>
 
-    <h6>4. [ContentProvider](https://developer.android.com/reference/android/content/ContentProvider.html
-)</h6>
+    <h6>4. [ContentProvider](https://developer.android.com/reference/android/content/ContentProvider.html)</h6>
