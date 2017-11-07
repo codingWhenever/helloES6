@@ -18,9 +18,9 @@
 
 + <h6>四大组件</h6>
 
-    <h6>1. [Activity](https://developer.android.com/reference/android/app/Activity.html)</h6>
-      _Lifesysle_
+    1. [Activity](https://developer.android.com/reference/android/app/Activity.html)
 
+        _Lifecycle_
     + onCreate()
     + onStart()
     + onResume()
@@ -29,8 +29,8 @@
     + onRestart()
     + onDestory()
 
-    <h6>2. [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)</h6>
+    2. [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
 
-    <h6>3. [Service](https://developer.android.com/guide/components/services.html)</h6>
+    3. [Service](https://developer.android.com/guide/components/services.html)
 
-    <h6>4. [ContentProvider](https://developer.android.com/reference/android/content/ContentProvider.html)</h6>
+    4. [ContentProvider](https://developer.android.com/reference/android/content/ContentProvider.html)
