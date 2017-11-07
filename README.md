@@ -1,2 +1,2 @@
 # helloES6
-es6
+ECAMScript 6
