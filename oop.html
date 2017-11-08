@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+    class User{
+      constructor(name, age){
+        this.name=name;
+        this.age = age;
+      }
+      login(){
+        alert("登录成功啦");
+      }
+    }
+
+    class VIP extends User{
+      constructor(name, age, level){
+        super(name, age);
+        this.level = level;
+      }
+      download(){
+        alert("想下载什么片呢？");
+      }
+    }
+
+    let vip = new VIP("weitao", 38, 5);
+    vip.login();
+    vip.download();
+
+    alert(vip instanceof User);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

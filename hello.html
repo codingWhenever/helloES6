@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Document</title>
+
+  <script>
+    // let a= 10;
+    // a=12;
+    // alert(a);
+    function show(fn){
+      fn(12,5);
+    }
+//箭头函数
+    show((a,b)=>{
+      alert(a*b);
+    });
+
+let display = b=>{
+  alert(b);
+};
+display(99);
+
+let arr = [1,5,0,99,789,-3];
+arr.sort((a,b)=>a-b);
+alert(arr);
+//解构赋值
+let [a,b,c]=[11,22,33];
+alert(c);
+
+let {d,e,f}={d:11,e:22,f:33};
+alert(e);
+
+//array-filter
+let arr1 = [1,2,3,4,5,6,7,8,9,0];
+let arrFilter = arr1.filter(item=>{
+  if(item%2==0){
+    return false;
+  } else {
+    return true;
+  }
+});
+alert(arrFilter);
+
+let arr3 = arr1.filter(item=>item%2);
+alert(arr3)
+
+arr3.forEach((item, index)=>{
+  alert('第'+index+'个是'+item);
+});
+
+//map
+let arr4 = [1,2,3,4,5];
+let arr5 = arr4.map(function (item){
+  return item+1;
+});
+alert("map:" + arr5);
+let arr6 = arr5.map(item=>item*2);
+alert(arr6);
+
+//reduce
+let arr7 = [10,20,30];
+let arr8 = arr7.reduce((temp, item, index)=>{
+  return temp + item;
+})
+alert(arr8);
+
+let arr9 = arr7.reduce((temp, item, index)=>{
+  if(index <arr7.length-1){
+    return temp +item;
+  } else {
+    return (temp+item)/arr7.length;
+  }
+});
+alert(arr9);
+  </script>
+</head>
+<body>
+
+</body>
+</html>
