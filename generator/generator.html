@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+    // function* show() {
+    //   alert('1');
+    //
+    //   yield;
+    //
+    //   alert('2');
+    //
+    //
+    // }
+    // let gen = show();
+    // gen.next();
+    // console.log(gen);
+    // gen.next();
+    // console.log(gen);
+    //
+    // function* display() {
+    //   alert('a');
+    //
+    //   yield 10;
+    //
+    //   alert('b');
+    //
+    //   return 20;
+    // }
+    // let obj = display();
+    // let res1 = obj.next();
+    // console.log(res1);
+    // let res2 = obj.next();
+    // console.log(res2);
+
+    //generator with paramters
+    function* showWithPara(a, b) {
+      alert('c');
+      console.log(a, b);
+
+      let c = yield;
+      console.log(c);
+      alert('d');
+      return 30;
+    }
+    let objP = showWithPara(99,999);
+    let res3 = objP.next();
+    let res4 = objP.next(888);
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
